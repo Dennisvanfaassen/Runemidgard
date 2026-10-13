@@ -10,7 +10,8 @@ Features:
 - Cinematic, mobile-friendly homepage
 - Editable guild level, guild EXP and roster capacity
 - Member/character roster with search
-- Party finder and events board
+- Location-based party planner for **Magma2**, **Stalactic Golem**, and **Endless Tower**, with customizable role capacities and character signups
+- Guild events board
 - Optional official Discord server widget and invite link
 - Browser-local storage for prototype data
 
@@ -37,7 +38,7 @@ The official Discord widget shows server membership/presence and voice channels,
 
 ## Important limitations
 
-- All settings, members, parties and events are currently stored **only in the current browser** with localStorage. Edits are not shared across visitors or devices.
+- All settings, members, parties, party role claims and events are currently stored **only in the current browser** with localStorage. Edits are not shared across visitors or devices. Other guild members cannot see signups made on another device yet.
 - No SoulBound Journey server API or guild synchronization has been confirmed.
 - Guild EXP and guild level are manually entered.
 - No authentication or admin permission system exists yet. Do not treat this demo interface as an authenticated admin dashboard.
